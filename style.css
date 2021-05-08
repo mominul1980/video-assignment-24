@@ -1,0 +1,268 @@
+img{
+    max-width: 100%;
+}
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: #000;
+}
+.header .logo{
+
+}
+.header ul{}
+.header ul li {
+    display: inline-block;
+    padding: 17px 30px 0;
+}
+.header ul li a{
+    display: inline-block;
+    text-decoration: none;
+}
+.header ul li a:hover{}
+#slider_area{
+    margin-top: 20px;
+}
+.item{
+    position: relative;
+}
+.item .slider_caption{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+   
+}
+.item .slider_caption h1{
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.item .slider_caption a{
+    display: inline-block;
+    border: 1px solid #3368C6;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #3368C6;
+    color: #fff;
+}
+.item .slider_caption a:hover{
+   color: #fff;
+   
+}
+
+.subhema{
+    position: relative;
+    margin: 100px 0 150px;
+    
+
+}
+.subhema i{
+    font-size: 40px;
+    background-color: #EEF3F9;
+    width: 60px;
+    height: 70px;
+    line-height: 70px;
+    color: blue;
+    padding-left: 12px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.subhema i:hover{
+    background-color: rgb(220, 21, 21);
+    color: chartreuse;
+}
+.subhema .text {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.subhema .text:hover{
+    box-shadow: 0 0 5px 5px #ddd;
+}
+.subhema:hover > i .text {
+    border: 1px solid #ddd;
+    transform: scale(1.2);
+}
+/* technology */
+.technology{
+    background-image: url(./img/bg1-1-1200x800.jpg);
+    background-size: cover;
+    padding: 250px 0;
+    background-color: #F5F8FC;
+}
+.blank {
+    width: 43px;
+    height: 3px;
+    background-color: #3368C6;
+    margin: 20px 0;
+}
+.technology h5{
+    color: #technology;
+    
+   
+}
+.technology p{
+    color: #8893b9;
+    font-size: 20px;
+}
+
+.icon{
+    margin: 20px 0;
+}
+.icon i{
+    margin-right: 10px;
+    color: #3368C6;
+}
+.button {
+    display: inline-block;
+    border: 1px solid #3368C6;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.button:hover{
+    background: #3368C6;
+    color: #fff;
+}
+
+/* expart */
+.expart{
+    margin-top: 60px;
+    text-align: center;
+}
+.expart h2{
+    font-size: 35px;
+    color: #031b4e;
+}
+.expart h3{
+    font-size: 35px;
+    color: #031b4e;
+    font-weight: 900;
+    margin: 15px;
+}
+.expart_item {
+    clear: both;
+    margin-top: 15px;
+    box-shadow: 2px 2px 13.2px 0.2px rgb(87 80 80);
+    padding: 20px 0px;
+}
+
+.expart_item .icon{
+    float: left;
+    width: 40%;
+    font-size: 50px;
+    height: 100%;
+    /* margin-right: 5px;
+    margin-top: 25px; */
+    color: #3368c6;
+
+}
+.expart_item .icon_item{
+    text-align: justify;
+    /* float: right;
+    right: 60%; */
+
+}
+.icon_item h5{
+    color: #031b4e;
+}
+.icon_item p{
+    color: #8893b9;
+}
+.expart{}
+
+/* laboratory */
+.laboratory h2{
+    margin-top: 250px;
+    font-size: 35px;
+}
+.laboratory h2 span{
+    font-weight: 900;
+}
+.analyzing {
+    margin-top: 100px;
+    border: 1px solid #8893b9;
+    padding: 20px 40px 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #ddd;
+    
+    transition: .4s;
+}
+.analyzing:hover{
+    transform: translateY(-40px);
+    background-image: url(./img/science11-602x401.jpg);
+    color: #fff;
+}
+.analyzing h6{
+color: #8893b9;
+}
+
+.analyzing i{
+    font-size: 40px;
+    background-color: #3368c6;
+    color: #fff;
+    padding: 10px;
+}
+.analyzing:hover i{
+    background-color: chartreuse;
+    color: crimson;
+    transform: scale(1.5);
+}
+.analyzing h3{
+    /* color: #031b4e; */
+}
+
+/* biotechnology */
+.biotechnology{
+    margin: 50px 0;
+}
+.biotechnology i {
+    background: #eef3f9;
+    font-size: 47px;
+    padding: 5px;
+    color: #3368C6;
+}
+.biotechnology h2{
+    color: #3368C6;
+}
+
+.email{
+    height: 60px;
+    position: relative;
+}
+.email i {
+    position: absolute;
+    top: 57px;
+    right: 48px;
+    background: #ddd;
+    padding: 8px 15px;
+}
+.footer{
+    margin-top: 50px;
+}
+.footer .head{
+    color: #031b4e;
+}
+.footer h4{
+    margin-bottom: 20px;
+    color: #3368C6;
+}
+.email .div1{
+    margin-top: 30px;
+}
+.email .div2{
+    margin-top: 30px;
+}
